@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let dotImageView = DotImageView()
+        dotImageView.image = UIImage(named: "Vernazza")
+        dotImageView.transfer()
+        
+        self.view.addSubview(dotImageView)
     }
 
     override func didReceiveMemoryWarning() {

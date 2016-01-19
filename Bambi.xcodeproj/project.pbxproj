@@ -37,11 +37,11 @@
 /* Begin PBXFileReference section */
 		5300FC361C4A200C00995E10 /* Bambi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bambi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5300FC391C4A200C00995E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5300FC3B1C4A200C00995E10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		5300FC3B1C4A200C00995E10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5300FC3E1C4A200C00995E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5300FC401C4A200C00995E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5300FC431C4A200C00995E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5300FC451C4A200C00995E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		5300FC451C4A200C00995E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5300FC4A1C4A200C00995E10 /* BambiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BambiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5300FC4E1C4A200C00995E10 /* BambiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BambiTests.swift; sourceTree = "<group>"; };
 		5300FC501C4A200C00995E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,6 +107,7 @@
 				5300FC691C4BDBEF00995E10 /* Controllers */,
 				5300FC6B1C4BDC2A00995E10 /* Resources */,
 				5300FC401C4A200C00995E10 /* Assets.xcassets */,
+				5300FC451C4A200C00995E10 /* Info.plist */,
 			);
 			path = Bambi;
 			sourceTree = "<group>";
@@ -155,7 +156,6 @@
 		5300FC6B1C4BDC2A00995E10 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5300FC451C4A200C00995E10 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -520,6 +520,7 @@
 				5300FC601C4A200C00995E10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5300FC611C4A200C00995E10 /* Build configuration list for PBXNativeTarget "BambiTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +529,7 @@
 				5300FC631C4A200C00995E10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5300FC641C4A200C00995E10 /* Build configuration list for PBXNativeTarget "BambiUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				5300FC661C4A200C00995E10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

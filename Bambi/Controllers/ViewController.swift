@@ -10,21 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var dotImageView: DotImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let dotImageView = DotImageView()
-        dotImageView.image = UIImage(named: "Vernazza")
-        dotImageView.transfer()
-        
-        self.view.addSubview(dotImageView)
+        dotImageView.setDotImage(UIImage(named: "Lena"))
+        dotImageView.setNeedsDisplay()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
